@@ -1,0 +1,22 @@
+# dune exec SyncDir
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/euzinho/.cache/dune/db
+# Workspace root: /home/euzinho/Coding/SyncDir
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" : "/home/euzinho/Coding/SyncDir/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /usr/sbin/ocamlc.opt -config > /tmp/dune_a8f1d7_output
